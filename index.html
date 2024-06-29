@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto jokempô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1>JokemPô</h1>
+
+        <div class="buttons">
+            <button value="pedra" onclick="onstone()" id="stone">&#128074</button>
+            <button value="papel" onclick="onpaper()" id="paper">&#128400</button>
+            <button value="tesoura" onclick="onscissors()" id="scissors">&#9996</button>
+        </div>
+
+        <p class="you-poit"><b>Sua pontuacao: <span class="voce">0</span></b></p>
+        <p class="poit-machine"><b>Pontuacao da maquina: <span class="maquina">0</span></b></p>
+        <p class="result"></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
